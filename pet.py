@@ -6,7 +6,7 @@ class Pet:
         self.breed = "🐕 Purebred German Shepherd"
         self.traits = [
             "Friendly",
-            "Very protective (great guard dog)",
+            "Very protective (makes a great guard dog)",
             "Energetic",
             "Highly intelligent",
             "Eager to please"
@@ -28,7 +28,7 @@ class Pet:
             || (__V
         """)
         time.sleep(1)
-        print(f" Meet {self.name}, your new digital pet!")
+        print(f" Meet {self.name}, my new digital pet!")
         time.sleep(1)
         print(f"Breed: {self.breed}")
         time.sleep(1)
@@ -36,7 +36,7 @@ class Pet:
         for trait in self.traits:
             print(f"- {trait}")
             time.sleep(0.5)
-        print("\nLet's have some fun with Butch!\n")
+        print("\nLet's have some awesome fun with Butch!\n")
         time.sleep(1)
 
     def eat(self):
